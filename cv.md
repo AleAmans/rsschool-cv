@@ -1,5 +1,5 @@
 # ANTON NILOV
-![my photo](C:\Users\setup\Pictures\CV-DSC06974.jpg)
+![my photo](https://github.com/AleAmans/rsschool-cv/blob/gh-pages/CV-DSC06974.jpg)
 ---
 ## CONTACTS
 **Address:** 72/17 Viktor Kupradze St, Tbilisi 0163\
