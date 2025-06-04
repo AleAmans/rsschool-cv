@@ -46,3 +46,6 @@ for (let i = 0; i <= 2; i = i + 1) {
 ## EDUCATION
 
 ## LANGUAGES
+**Russian** - native speaker\
+**English** - A2\
+**Spanish** - entry level (half a year of living in Mexico)
