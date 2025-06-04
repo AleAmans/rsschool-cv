@@ -10,7 +10,12 @@
 ## ABOUT ME
 
 ## SKILLS
-
+- HTML
+- CSS
+- JavaScript (elementary)
+- Git
+- VS Code
+- Adobe Photoshop, Adobe Lightroom, CorelDRAW
 ## CODE
 One-button idea generator for procrastination:
 ```
