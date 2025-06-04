@@ -49,7 +49,8 @@ for (let i = 0; i <= 2; i = i + 1) {
 ## EXPERIENCE
 
 ## EDUCATION
-
+**College of Automation and Radio Electronics No. 27** - specialty *electrician*\
+**RS School** - course *"JavaScript/Front-end. Stage 0"* (in progress)
 ## LANGUAGES
 **Russian** - native speaker\
 **English** - A2\
