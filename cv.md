@@ -49,7 +49,9 @@ for (let i = 0; i <= 2; i = i + 1) {
 }
 ```
 ## EXPERIENCE
-
+I learned the basics of Front-end development based on Yandex Practicum.\
+HTML and CSS were studied by writing the code for the [«4 правила вёрстки»](https://sandbox.practicum-team.ru/tasks/000-freetrack/04-more-css/17-one-step/example-02/pre/) landing page.\
+JavaScript was studied by writing code for a website about [procrastination](https://code.s3.yandex.net/web-developer/procrastinate/index.html).
 ## EDUCATION
 **College of Automation and Radio Electronics No. 27** - specialty *electrician*\
 **RS School** - course *"JavaScript/Front-end. Stage 0"* (in progress)
