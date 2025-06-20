@@ -1,1 +1,1 @@
-# rsschool-cv
+https://aleamans.github.io/rsschool-cv/cv
