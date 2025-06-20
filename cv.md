@@ -19,7 +19,7 @@ I've wanted to try learning programming for a long time, but there was always a 
 - VS Code
 - Adobe Photoshop, Adobe Lightroom, CorelDRAW
 ## CODE
-One-button idea generator for procrastination:
+One-button idea generator for procrastination:\
 ```
 function getRandomElement(arr) {
   let randIndex = Math.floor(Math.random() * arr.length);
