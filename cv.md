@@ -19,33 +19,13 @@ I've wanted to try learning programming for a long time, but there was always a 
 - VS Code
 - Adobe Photoshop, Adobe Lightroom, CorelDRAW
 ## CODE
-One-button idea generator for procrastination:\
-    function getRandomElement(arr) {
-      let randIndex = Math.floor(Math.random() * arr.length);
-      return arr[randIndex];
-    }
-    
-    let button = document.querySelector('.button');
-    let phrase = document.querySelector('.phrase');
-    let advice = document.querySelector('.advice');
-    let image = document.querySelector('.image');
-    
-    button.addEventListener('click', function () {
-      let randomElement = getRandomElement(phrases);
-      smoothly(phrase, 'textContent', randomElement.text);
-      smoothly(image, 'src', randomElement.image);
-    
-      if (randomElement.text.length > 40) {
-        advice.style.fontSize = '33px';
-      } else {
-        advice.style.fontSize = '42px';
-      }
-    });
-    
-    for (let i = 0; i <= 2; i = i + 1) {
-      smoothly(phrase, 'textContent', phrases[i].text);
-      smoothly(image, 'src', phrases[i].image);
-    }
+One-button idea generator for procrastination:
+```
+function getRandomElement(arr) {
+  let randIndex = Math.floor(Math.random() * arr.length);
+  return arr[randIndex];
+}
+```
 ## EXPERIENCE
 I learned the basics of Front-end development based on Yandex Practicum.\
 HTML and CSS were studied by writing the code for the [«4 правила вёрстки»](https://sandbox.practicum-team.ru/tasks/000-freetrack/04-more-css/17-one-step/example-02/pre/) landing page.\
