@@ -26,6 +26,11 @@ body {
     margin: 0;
 }
 
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
 .caveat-<uniquifier> {
   font-family: "Caveat", cursive;
   font-optical-sizing: auto;
