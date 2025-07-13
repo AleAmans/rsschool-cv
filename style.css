@@ -15,6 +15,16 @@ body {
     padding: 0;
 }
 
+a {
+  text-decoration: none;
+  color: #2a52be;
+  font-size: 16px;
+}
+
+a:hover {
+  color: #0b2363;
+}
+
 .header {
     border: 1px solid red;
     margin: 0;
@@ -24,11 +34,30 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  list-style: none;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  font-family: "Short Stack", cursive;
 }
 
 .main {
     border: 1px solid red;
     margin: 0;
+}
+
+h1 {
+    font-family: "Caveat", cursive;
+    font-size: 68px;
+    color: #2a52be;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Short Stack", cursive;
+    color: #2a52be;
 }
 
 .footer {
@@ -41,7 +70,7 @@ body {
   margin: 0 auto;
 }
 
-.caveat-<uniquifier> {
+.caveat {
   font-family: "Caveat", cursive;
   font-optical-sizing: auto;
   font-weight: 700;
