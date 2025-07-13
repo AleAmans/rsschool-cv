@@ -2,7 +2,7 @@
 ![my photo](/rsschool-cv/images/CV-DSC06974.jpg)
 
 ## CONTACTS
-**Address:** 72/17 Viktor Kupradze St, Tbilisi 0163\
+**Address:** Viktor Kupradze St, Tbilisi 0163\
 **Phone:** +995 555 50 32 49\
 **E-mail:** ale.amans.an@gmail.com\
 **GitHub:** [AleAmans](https://github.com/AleAmans)\
