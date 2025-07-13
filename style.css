@@ -2,9 +2,20 @@
   box-sizing: border-box;
 }
 
+.header {
+    border: 1px solid red;
+    margin: 0;
+}
 
+.main {
+    border: 1px solid red;
+    margin: 0;
+}
 
-
+.footer {
+    border: 1px solid red;
+    margin: 0;
+}
 
 .caveat-<uniquifier> {
   font-family: "Caveat", cursive;
