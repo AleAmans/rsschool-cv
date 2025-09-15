@@ -58,7 +58,7 @@ JavaScript was studied by writing code for a website about [procrastination](htt
 
 ## EDUCATION
 **College of Automation and Radio Electronics No. 27** - specialty *electrician*\
-**RS School** - course *"JavaScript/Front-end. Stage 0"* (in progress)
+**RS School** - course *"JavaScript/Front-end"* (in progress)
 
 ## LANGUAGES
 **Russian** - native speaker\
