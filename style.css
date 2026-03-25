@@ -13,6 +13,11 @@ body {
     min-height: 100vh;
     margin: 0;
     padding: 0;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('images/background-white-textures.jpg');
+    background-size: 100% auto;
+    background-repeat: repeat-y;
+    background-attachment: scroll;
+    background-position: top center;
 }
 
 a {
