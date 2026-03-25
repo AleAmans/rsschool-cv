@@ -22,12 +22,12 @@ body {
 
 a {
   text-decoration: none;
-  color: #2a52be;
+  color: #D57F34;
   font-size: 16px;
 }
 
 a:hover {
-  color: #0b2363;
+  color: #9C4826;
 }
 
 .header {
@@ -56,13 +56,21 @@ a:hover {
 h1 {
     font-family: "Caveat", cursive;
     font-size: 68px;
-    color: #2a52be;
+    color: #4E5E78;
     text-align: center;
 }
 
 h2 {
     font-family: "Short Stack", cursive;
-    color: #2a52be;
+    color: #4E5E78;
+}
+
+p {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    color: #2e3157;
 }
 
 .my-photo {
