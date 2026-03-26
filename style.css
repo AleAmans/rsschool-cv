@@ -52,6 +52,8 @@ a:hover {
   border: 1px solid red;
   margin: 0;
   padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
 }
 
 h1 {
