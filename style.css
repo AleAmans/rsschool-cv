@@ -7,17 +7,17 @@ html {
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    min-height: 100vh;
-    margin: 0;
-    padding: 0;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('images/background-white-textures.jpg');
-    background-size: 100% auto;
-    background-repeat: repeat-y;
-    background-attachment: scroll;
-    background-position: top center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('images/background-white-textures.jpg');
+  background-size: 100% auto;
+  background-repeat: repeat-y;
+  background-attachment: scroll;
+  background-position: top center;
 }
 
 a {
@@ -31,8 +31,8 @@ a:hover {
 }
 
 .header {
-    border: 1px solid red;
-    margin: 0;
+  border: 1px solid red;
+  margin: 0;
 }
 
 .nav-list {
@@ -49,42 +49,42 @@ a:hover {
 }
 
 .main {
-    border: 1px solid red;
-    margin: 0;
+  border: 1px solid red;
+  margin: 0;
 }
 
 h1 {
-    font-family: "Caveat", cursive;
-    font-size: 68px;
-    color: #4E5E78;
-    text-align: center;
+  font-family: "Caveat", cursive;
+  font-size: 68px;
+  color: #4E5E78;
+  text-align: center;
 }
 
 h2 {
-    font-family: "Short Stack", cursive;
-    color: #4E5E78;
+  font-family: "Short Stack", cursive;
+  color: #4E5E78;
 }
 
 p, ul {
-    font-family: "Space Grotesk", sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    margin: 0;
-    color: #2e3157;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  color: #2e3157;
 }
 
 .my-photo {
-    display: block;
-    object-fit: cover;
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.8);
+  display: block;
+  object-fit: cover;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.8);
 }
 
 .footer {
-    border: 1px solid red;
-    margin: 0;
+  border: 1px solid red;
+  margin: 0;
 }
 
 .container {
