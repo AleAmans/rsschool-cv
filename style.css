@@ -37,7 +37,7 @@ a:hover {
 
 .nav-list {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   list-style: none;
 }
@@ -49,11 +49,11 @@ a:hover {
 }
 
 .main {
+  max-width: 700px;
   border: 1px solid red;
   margin: 0;
   padding-bottom: 30px;
-  display: flex;
-  justify-content: center;
+  margin: 0 auto;
 }
 
 h1 {
@@ -96,6 +96,11 @@ code {
   font-size: 14px;
   color: #2e3157;
   padding: 2px 6px;
+}
+
+.photo {
+  display: flex;
+  justify-content: center;
 }
 
 .my-photo {
