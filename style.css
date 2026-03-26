@@ -73,6 +73,28 @@ p, ul {
   color: #2e3157;
 }
 
+.example-code {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+pre {
+  width: fit-content;
+  background-color: #f5f5f5;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #D57F34;
+  margin: 2px;
+}
+
+code {
+  font-family: "Space Mono", monospace;
+  font-size: 14px;
+  color: #2e3157;
+  padding: 2px 6px;
+}
+
 .my-photo {
   display: block;
   object-fit: cover;
@@ -107,6 +129,13 @@ p, ul {
 
 .space-grotesk {
   font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.caveat, #code {
+  font-family: "Caveat", cursive;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
