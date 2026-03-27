@@ -7,32 +7,42 @@ html {
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    min-height: 100vh;
-    margin: 0;
-    padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('images/background-white-textures.jpg');
+  background-size: 100% auto;
+  background-repeat: repeat-y;
+  background-attachment: scroll;
+  background-position: top center;
 }
 
 a {
   text-decoration: none;
-  color: #2a52be;
+  color: #D57F34;
   font-size: 16px;
 }
 
 a:hover {
-  color: #0b2363;
+  color: #9C4826;
 }
 
 .header {
-    border: 1px solid red;
-    margin: 0;
+  position: fixed;
+  border: 1px solid #D57F34;
+  margin: 0;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: #f5f5f5;
 }
 
 .nav-list {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   list-style: none;
 }
@@ -43,31 +53,117 @@ a:hover {
   font-family: "Short Stack", cursive;
 }
 
+.nav-photo {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid #D57F34;
+}
+
 .main {
-    border: 1px solid red;
-    margin: 0;
+  max-width: 700px;
+  margin: 0;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  margin: 0 auto;
 }
 
 h1 {
-    font-family: "Caveat", cursive;
-    font-size: 68px;
-    color: #2a52be;
-    text-align: center;
+  font-family: "Caveat", cursive;
+  font-size: 68px;
+  color: #4E5E78;
+  text-align: center;
 }
 
 h2 {
-    font-family: "Short Stack", cursive;
-    color: #2a52be;
+  font-family: "Short Stack", cursive;
+  color: #4E5E78;
+}
+
+p, ul {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  color: #2e3157;
+}
+
+.example-code {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+pre {
+  width: fit-content;
+  background-color: #f5f5f5;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #D57F34;
+  margin: 2px;
+}
+
+code {
+  font-family: "Space Mono", monospace;
+  font-size: 14px;
+  color: #2e3157;
+  padding: 2px 6px;
+}
+
+.photo {
+  display: flex;
+  justify-content: center;
+}
+
+.my-photo {
+  display: block;
+  object-fit: cover;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.8);
 }
 
 .footer {
-    border: 1px solid red;
-    margin: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 0;
+  width: 100%;
+  background-color: #D57F34;
+}
+
+.footer-link {
+  color: #9C4826;
+}
+
+.footer-link:hover {
+  color: #f5f5f5;
+}
+
+.github-logo {
+  height: 40px;
+  width: auto;
+  fill: currentColor;
+}
+
+.rs-school-logo {
+  height: 42px;
+  width: auto;
+  fill: currentColor;
 }
 
 .container {
   max-width: 1440px;
   margin: 0 auto;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
 }
 
 .caveat {
@@ -85,6 +181,13 @@ h2 {
 
 .space-grotesk {
   font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.caveat, #code {
+  font-family: "Caveat", cursive;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
