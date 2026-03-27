@@ -32,7 +32,7 @@ a:hover {
 
 .header {
   position: fixed;
-  border: 1px solid #D57F34;
+  border-bottom: 2px solid #D57F34;
   margin: 0;
   top: 0;
   width: 100%;
@@ -59,12 +59,11 @@ a:hover {
   height: 40px;
   border-radius: 50%;
   object-fit: cover;
-  border: 1px solid #D57F34;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
 }
 
 .main {
   max-width: 700px;
-  margin: 0;
   padding-top: 50px;
   padding-bottom: 30px;
   margin: 0 auto;
