@@ -127,13 +127,43 @@ code {
 }
 
 .footer {
-  border: 1px solid red;
+  padding-top: 5px;
+  padding-bottom: 5px;
   margin: 0;
+  width: 100%;
+  background-color: #D57F34;
+}
+
+.footer-link {
+  color: #9C4826;
+}
+
+.footer-link:hover {
+  color: #f5f5f5;
+}
+
+.github-logo {
+  height: 40px;
+  width: auto;
+  fill: currentColor;
+}
+
+.rs-school-logo {
+  height: 42px;
+  width: auto;
+  fill: currentColor;
 }
 
 .container {
   max-width: 1440px;
   margin: 0 auto;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
 }
 
 .caveat {
